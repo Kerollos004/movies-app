@@ -1,0 +1,17 @@
+
+.container div{
+    border-radius: 20px;
+    color: white;
+    width: 600px;
+}
+.container div img{
+    height: 600px;
+    width: 100%; 
+    margin-bottom: 20px   ;
+}
+
+@media(max-width:768px){
+    .container div {
+        width: 90%;
+    }
+}

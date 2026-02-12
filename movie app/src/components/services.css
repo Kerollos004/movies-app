@@ -1,0 +1,25 @@
+.services{
+    padding: 5% ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px , 1fr));
+    gap: 25px;
+}
+.service-box{
+    padding: 20px 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(122, 60, 180);
+    border-radius: 20px;
+}
+.service-box i{
+    font-size: 25px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.service-box h3{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.service-box:hover{
+    box-shadow: 0 0 15px rgb(115, 67, 159);
+}

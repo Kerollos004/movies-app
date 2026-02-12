@@ -1,0 +1,58 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-image: url(../assets/imgs/movie-background-collage.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.home-text{
+    padding-left: 7%;
+    width: 800px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.home-text h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: rgb(122, 60, 180);
+}
+.home-text p{
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+.home-text a{
+    padding: 10px 23px;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    font-size: 17px;
+    width: fit-content;
+}
+.home-text a span{
+    margin-left: 5px;
+}
+.home-text a i{
+    display: inline-block;
+}
+.home-text a:hover{
+    border-color: transparent;
+    background-color: rgb(122, 60, 180);
+}
+.home-text a:hover  i{
+    transform: translateX(5px);
+}
+@media(max-width:768px){
+    .home-text{
+        padding: 0;
+        width: 90%;
+    }
+    .home{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,59 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    padding: 0 50px;
+}
+nav h3{
+    font-size: 30px;
+    color:rgb(122, 60, 180);
+}
+nav ul li a{
+    font-size: 20px;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(122, 60, 180);
+}
+nav i{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
+nav i.moon{
+    display: block;
+}
+nav i.moon:hover{
+    color: rgb(122, 60, 180);
+}
+@media(max-width:768px){
+    nav{
+        padding:  0 20px;
+    }
+    nav i{
+        display: block;
+    }
+    nav ul{
+        width: 100%;
+        padding: 30px;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: rgb(21, 18, 61);
+        flex-direction: column;
+        display: none;
+    }
+}
+nav ul.active{
+    display: block;
+}
+nav.active{
+    background-color: rgb(21, 18, 61);
+}
