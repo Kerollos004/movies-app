@@ -4,7 +4,7 @@ import Home from '../components/Home'
 import About from "../components/About"
 import Services from"../components/Services"
 import Movies from "../components/Movies"
-import Connect from '../components/connect'
+import Connect from '../components/Connect'
 import Footer from "../components/Footer"
 import "./mainPage.css"
 
